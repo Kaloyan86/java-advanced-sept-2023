@@ -59,6 +59,6 @@ public class P5BalancedParentheses {
                     break;
             }
         }
-        return true;
+        return openParenthesesStack.isEmpty();
     }
 }
